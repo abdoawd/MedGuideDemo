@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Med Guide</string>
+    <string name="city">المحافظة</string>
+    <string name="District">الحى أو المحافظة</string>
+    <string name="Specialization"> التخصص</string>
+    <string name="contract"> تعاقد </string>
+    <string name="doctor_name"> اسم الدكتور </string>
+    <string name="btn_search_text">بحث</string>
+</resources>

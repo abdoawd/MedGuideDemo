@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".PartnersActivity">
+
+    <ImageView
+        android:id="@+id/imv_partner_bg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="50dp"
+        android:src="@mipmap/search_main_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imv_companies_partner"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/compannies_partners"
+        app:layout_constraintTop_toBottomOf="@id/imv_partner_bg"
+        app:layout_constraintWidth_percent=".5"
+        android:paddingStart="30dp"/>
+
+    <ImageView
+        android:id="@+id/imv_govern_partner"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/government_partners"
+        app:layout_constraintStart_toEndOf="@id/imv_companies_partner"
+        app:layout_constraintTop_toBottomOf="@id/imv_partner_bg"
+        app:layout_constraintWidth_percent=".5"
+        android:paddingEnd="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/imv_factories_partner"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/factories_partners"
+        app:layout_constraintTop_toBottomOf="@id/imv_companies_partner"
+        app:layout_constraintWidth_percent=".5"
+        android:paddingStart="30dp"/>
+
+    <ImageView
+        android:id="@+id/imv_clubs_partner"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/club_partners"
+        app:layout_constraintStart_toEndOf="@id/imv_factories_partner"
+        app:layout_constraintTop_toBottomOf="@id/imv_companies_partner"
+        app:layout_constraintWidth_percent=".5"
+        android:paddingEnd="30dp"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

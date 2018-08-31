@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9dbe3c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#fff</color>
+    <color name="Grey">#808080</color>
+    <color name="Separator">#E5E5E5</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_light">#1d73c6</color>
+</resources>
